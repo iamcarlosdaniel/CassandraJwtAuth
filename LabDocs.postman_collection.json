@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "6da66b77-d236-4013-88b8-f267d9a48be9",
+		"name": "LabDocs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29088681"
+	},
+	"item": [
+		{
+			"name": "Ordenes",
+			"item": [
+				{
+					"name": "Obtener todas las ordenes",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIxIiwiZW1haWwiOiJkYW5pZWxAZW1haWwuY29tIiwibmJmIjoxNzQ5NTEwNTQwLCJleHAiOjE3NDk1MTQxNDAsImlhdCI6MTc0OTUxMDU0MH0.nklW7gbGrqnCNlNZfpVMXjTSp7_b4osVxFautCJLBCU",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/orders/list",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"orders",
+								"list"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear una orden",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJkMzhjZWI1Yy0yZTYwLTQ1YTItOTNlYy0wYzZmYzU5MzViNjEiLCJlbWFpbCI6ImRhbmllbEBlbWFpbC5jb20iLCJuYmYiOjE3NDk1MDg2NzcsImV4cCI6MTc0OTUxMjI3NywiaWF0IjoxNzQ5NTA4Njc3fQ.MGHpFT7Xkr9ujlUWdGcJyUlCwWvNuDeJR0BfjJYfqVI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"doctorId\": 1,\r\n  \"patientId\": 101,\r\n  \"testTypeId\": 2001,\r\n  \"status\": \"pendiente\",\r\n  \"notes\": \"Orden de análisis general\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5285/api/orders/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5285",
+							"path": [
+								"api",
+								"orders",
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"daniel@email.com\",\r\n  \"passwordHash\": \"contraseñaSegura123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Protected",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJkMzhjZWI1Yy0yZTYwLTQ1YTItOTNlYy0wYzZmYzU5MzViNjEiLCJlbWFpbCI6ImRhbmllbEBlbWFpbC5jb20iLCJuYmYiOjE3NDk1MDg2NzcsImV4cCI6MTc0OTUxMjI3NywiaWF0IjoxNzQ5NTA4Njc3fQ.MGHpFT7Xkr9ujlUWdGcJyUlCwWvNuDeJR0BfjJYfqVI",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/Protected/secret",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Protected",
+						"secret"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Status",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIxIiwiZW1haWwiOiJkYW5pZWxAZW1haWwuY29tIiwibmJmIjoxNzQ5NTEwNTQwLCJleHAiOjE3NDk1MTQxNDAsImlhdCI6MTc0OTUxMDU0MH0.nklW7gbGrqnCNlNZfpVMXjTSp7_b4osVxFautCJLBCU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/auth/status",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"auth",
+						"status"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
