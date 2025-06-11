@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\Documents\\GitHub\\CassandraJwtAuth\\CassandraJwtAuth.csproj": {}
+    "C:\\Users\\carlo\\Desktop\\CassandraJwtAuth\\CassandraJwtAuth.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\Documents\\GitHub\\CassandraJwtAuth\\CassandraJwtAuth.csproj": {
+    "C:\\Users\\carlo\\Desktop\\CassandraJwtAuth\\CassandraJwtAuth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\Documents\\GitHub\\CassandraJwtAuth\\CassandraJwtAuth.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\Desktop\\CassandraJwtAuth\\CassandraJwtAuth.csproj",
         "projectName": "CassandraJwtAuth",
-        "projectPath": "C:\\Users\\carlo\\Documents\\GitHub\\CassandraJwtAuth\\CassandraJwtAuth.csproj",
+        "projectPath": "C:\\Users\\carlo\\Desktop\\CassandraJwtAuth\\CassandraJwtAuth.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\Documents\\GitHub\\CassandraJwtAuth\\obj\\",
+        "outputPath": "C:\\Users\\carlo\\Desktop\\CassandraJwtAuth\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,6 +57,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[9.0.5, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
