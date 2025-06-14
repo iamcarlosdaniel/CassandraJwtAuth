@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IJ+mcJi2rbs=",
+  "dgSpecHash": "/SKgTjhBFOQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\carlo\\Desktop\\CassandraJwtAuth\\CassandraJwtAuth.csproj",
+  "projectFilePath": "C:\\Users\\carlo\\Documents\\GitHub\\CassandraJwtAuth\\CassandraJwtAuth.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\cassandracsharpdriver\\3.22.0\\cassandracsharpdriver.3.22.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\k4os.compression.lz4\\1.1.11\\k4os.compression.lz4.1.1.11.nupkg.sha512",

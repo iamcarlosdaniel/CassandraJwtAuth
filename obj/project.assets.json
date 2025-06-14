@@ -4840,11 +4840,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlo\\Desktop\\CassandraJwtAuth\\CassandraJwtAuth.csproj",
+      "projectUniqueName": "C:\\Users\\carlo\\Documents\\GitHub\\CassandraJwtAuth\\CassandraJwtAuth.csproj",
       "projectName": "CassandraJwtAuth",
-      "projectPath": "C:\\Users\\carlo\\Desktop\\CassandraJwtAuth\\CassandraJwtAuth.csproj",
+      "projectPath": "C:\\Users\\carlo\\Documents\\GitHub\\CassandraJwtAuth\\CassandraJwtAuth.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlo\\Desktop\\CassandraJwtAuth\\obj\\",
+      "outputPath": "C:\\Users\\carlo\\Documents\\GitHub\\CassandraJwtAuth\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
